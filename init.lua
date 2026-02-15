@@ -33,3 +33,4 @@ vim.keymap.set('v', '<C-c>', '"+y', { noremap = true, silent = true, desc = "Cop
 -- 额外建议：为了符合 Windows 习惯，你可能也想把 Ctrl+v 设为粘贴
 -- 在 Insert 模式下按 Ctrl+v 粘贴系统剪贴板内容
 vim.keymap.set('i', '<C-v>', '<C-r>+', { noremap = true, silent = true, desc = "Paste from system clipboard" })
+
